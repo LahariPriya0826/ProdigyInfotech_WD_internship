@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="tic-tac-toe.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+        body {
+            background-image: url('https://stealthygaming.com/play-tic-tac-toe-online-with-friends/'); /* URL of your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container {
+            /* Add your container styles here */
+        }
+        /* Add other CSS styles here */
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe Game</h1>
+        <form class="player-names" id="myForm">
+            <input type="text" id="player1" placeholder="Player 1" required>
+            <input type="text" id="player2" placeholder="Player 2" required>
+            <button type="submit">Start Game</button>
+        </form>
+        <div class="board-container" id="boardContainer">
+            <div id="board" class="board">
+                <div class="cell" onclick="playerMove(0)"></div>
+                <div class="cell" onclick="playerMove(1)"></div>
+                <div class="cell" onclick="playerMove(2)"></div>
+                <div class="cell" onclick="playerMove(3)"></div>
+                <div class="cell" onclick="playerMove(4)"></div>
+                <div class="cell" onclick="playerMove(5)"></div>
+                <div class="cell" onclick="playerMove(6)"></div>
+                <div class="cell" onclick="playerMove(7)"></div>
+                <div class="cell" onclick="playerMove(8)"></div>
+            </div>
+            <div>
+                <p id="turn" class="turn"></p>
+                <p id="result" class="result"></p>
+            </div>
+            <div class="buttons">
+                <button id="refreshBtn" onclick="refreshBoard()">Restart Game</button>
+                <button id="resetBtn" onclick="resetGame()">Reset Game</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

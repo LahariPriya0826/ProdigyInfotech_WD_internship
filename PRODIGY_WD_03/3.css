@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  
+    background-color: #cbe5e6;
+    color: whitesmoke;
+}
+.container{
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+.player-names{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.player-names input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding:8px 10px;
+}
+h1{
+    
+    margin-bottom: 20px;
+   
+}
+.board-container{
+    display: none;
+  
+    
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: auto;
+    width: fit-content;
+   margin-bottom: 20px;
+   
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.cell {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    font-size: 36px;
+    display: flex;
+    color: #3d3d3d;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #06a55b;
+    color: whitesmoke;
+    font-weight: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #088d4f;
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .board {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+    }
+
+    .cell {
+        font-size: 24px;
+    }
+}
