@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+       
+        <div class="header">
+            <div class="search-box">
+            <input type="text"  placeholder="Enter your location" class="input-box">
+
+            <button class="fa-solid fa-magnifying-glass" id="searchbtn"></button>
+            </div>
+
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found !!!</h1>
+            <img src="C:\Users\LAHARI\OneDrive\Desktop\404.png" alt="404">
+        </div>
+
+        <div class="weather-body">
+
+            <img src="C:\Users\LAHARI\OneDrive\Desktop\sunny.png" alt="sun" lass="weather-img">
+
+            <div class="weather-box">
+                <p class="temprature">0 <sup>°C</sup></p>
+                <p class="description">Light rain</p>
+            </div>
+
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet-degree"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">12Km/H</span>
+                        <p>Wind Spped</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="forcast">
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
