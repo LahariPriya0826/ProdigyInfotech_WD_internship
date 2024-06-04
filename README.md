@@ -1,4 +1,4 @@
-# Web Development Tasks for Prodigy Infotech
+# Web Development Tasks : Prodigy Infotech
 
 Welcome to my repository! This repo contains the web development tasks I completed for Prodigy Infotech. Below is a detailed description of each project.
 
