@@ -48,9 +48,3 @@ A weather application that fetches data from a weather API based on the user's l
 - HTML
 - CSS
 - JavaScript
-
-
-## Contact
-
-For any questions or feedback, please reach out to me at [your-email@example.com](mailto:laharipriya0826@gmail.com).
-
