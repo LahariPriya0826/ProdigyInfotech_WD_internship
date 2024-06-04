@@ -49,15 +49,8 @@ A weather application that fetches data from a weather API based on the user's l
 - CSS
 - JavaScript
 
-## Contributing
-
-Feel free to fork this repository and make your own changes. Pull requests are welcome!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, please reach out to me at [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please reach out to me at [your-email@example.com](mailto:laharipriya0826@gmail.com).
 
